@@ -1,0 +1,10 @@
+a = input()
+a = int(a)
+b = input()
+b = int(b)
+
+first = (a // b)
+second = (a % b)
+
+print(first)
+print(second)
