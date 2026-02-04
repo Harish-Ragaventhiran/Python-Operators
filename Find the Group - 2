@@ -1,0 +1,15 @@
+num = int(input())
+divide = num % 6
+
+if divide == 1:
+    print("Group 1")
+elif divide == 2:
+    print("Group 2")
+elif divide == 3:
+    print("Group 3")
+elif divide == 4:
+    print("Group 4")
+elif divide == 5:
+    print("Group 5")
+else:
+    print("Group 6")
