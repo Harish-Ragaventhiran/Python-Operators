@@ -1,0 +1,23 @@
+n = input()
+num = str(n)
+
+a = int(num[0])
+b = int(num[1])
+c = int(num[2])
+d = int(num[3])
+
+power_a = (a ** 4)
+power_b = (b ** 4)
+power_c = (c ** 4)
+power_d = (d ** 4)
+
+sum_of_digit = str(power_a + power_b + power_c + power_d)
+
+
+if int(sum_of_digit == num):
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
+    
+    
+    
