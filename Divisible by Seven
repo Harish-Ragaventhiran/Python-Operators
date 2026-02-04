@@ -1,0 +1,10 @@
+N = input()
+N = int(N)
+
+is_div = (N % 7)
+is_equal = is_div == 0
+
+if (is_equal):
+    print("Divisible by Seven")
+else:
+    print("Not Divisible by Seven")
