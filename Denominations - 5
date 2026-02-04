@@ -1,0 +1,28 @@
+amount = int(input())
+
+no_2000 = amount // 2000
+amount = amount % 2000
+
+no_500 = amount // 500
+amount = amount % 500
+
+no_200 = amount // 200
+amount = amount % 200
+
+no_50 = amount // 50
+amount = amount % 50
+
+no_20 = amount // 20
+amount = amount % 20
+
+no_5 = amount // 5
+amount = amount % 5
+
+no_2 = amount // 2
+amount = amount % 2
+
+no_1 = amount
+
+print("2000:" +str(no_2000) +" 500:" +str(no_500) +" 200:" +str(no_200) +" 50:" +str(no_50) +" 20:" +str(no_20) +" 5:" +str(no_5) +" 2:" +str(no_2) +" 1:" +str(no_1))
+
+
