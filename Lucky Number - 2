@@ -1,0 +1,16 @@
+N = int(input())
+is_multi = (N % 9 == 0)
+N = str(N)
+
+first_dig = int(N[0])
+second_dig = int(N[1])
+
+is_first = (first_dig == 9)
+is_second = (second_dig == 9)
+
+is_9 = (is_first or is_second)
+
+if is_9 or is_multi:
+    print("Lucky Number")
+else:
+    print("Unlucky Number")
