@@ -1,0 +1,28 @@
+n = input()
+
+one_len = (len(n) == 1)
+two_len = (len(n) == 2)
+three_len = (len(n) == 3)
+
+one_len = int(one_len)
+two_len = int(two_len)
+three_len = int(three_len)
+
+if one_len:
+    print(n[0])
+elif two_len:
+    first = int(n[0])
+    second = int(n[1])
+    print(first + second)
+elif three_len:
+    first = int(n[0])
+    second = int(n[1])
+    third = int(n[2])
+    print(first + second + third)
+else:
+    first = int(n[0])
+    second = int(n[1])
+    third = int(n[2])
+    four = int(n[3])
+    print(first + second + third + four)
+    
