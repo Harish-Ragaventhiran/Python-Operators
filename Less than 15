@@ -1,0 +1,9 @@
+a = input()
+a = int(a)
+b = input()
+b = int(b)
+c = input()
+c = int(c)
+result = (a < 15) or (b < 15) or (c < 15)
+
+print(result)
