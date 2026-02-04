@@ -1,0 +1,13 @@
+N = input()
+N = int(N)
+
+remain_2 = (N % 5)
+remain_1 = (N % 4)
+
+if remain_1 > remain_2:
+    greatest = remain_1
+else:
+    greatest = remain_2
+    
+print(greatest)
+
