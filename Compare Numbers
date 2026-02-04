@@ -1,0 +1,15 @@
+first_num = input()
+first_num = int(first_num)
+second_num = input()
+second_num = int(second_num)
+
+is_first_num = first_num < 0
+is_second_num = second_num < 0
+
+product = first_num * second_num
+is_negative = is_first_num or is_second_num
+product_neg = product >= -46
+
+result = is_negative and product_neg
+
+print(result)
