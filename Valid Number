@@ -1,0 +1,14 @@
+n = input()
+
+first = int(n[0])
+send = int(n[1])
+thrd = int(n[2])
+
+comp = (first != 5) or (send != 5) or (thrd != 5)
+between = (int(n) > 300) and (int(n) < 700)
+
+if comp and between:
+    print("Valid Number")
+else:
+    print("Not a Valid Number")
+
