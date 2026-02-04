@@ -1,0 +1,10 @@
+number = input()
+first = int(number[0])
+second = int(number[1])
+
+number = int(number)
+
+if (number % first == 0) and (number % second == 0):
+    print(number * 2)
+else:
+    print(number)
