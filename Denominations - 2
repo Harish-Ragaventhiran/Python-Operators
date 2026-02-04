@@ -1,0 +1,18 @@
+remaining = int(input())
+
+no_100 = remaining // 100
+remaining = remaining % 100
+
+no_50 = remaining // 50
+remaining = remaining % 50
+
+no_10 = remaining // 10
+remaining = remaining % 10
+
+no_1 = remaining
+
+print("100:" + str(no_100))
+print("50:" + str(no_50))
+print("10:" + str(no_10))
+print("1:" + str(no_1))
+
