@@ -1,0 +1,14 @@
+n = int(input())
+
+div_5 = (n % 5 == 0)
+div_55 = (n % 5)
+
+div_7 = (n % 7 == 0)
+div_77 = (n % 7)
+less_7 = (n < 7)
+
+if div_7 and div_5 or less_7:
+    print(n)
+else:
+    print(div_55)
+    print(div_77)
