@@ -1,0 +1,21 @@
+N = input()
+is_above =int(N)>25 
+first_digit = N[0]
+second_digit = N[1]
+first_digit =int(first_digit)
+second_digit =int(second_digit)
+is_greater = first_digit > second_digit 
+condition_a = is_above
+condition_b = is_greater
+
+if condition_a:
+    print("True")
+else:    
+    print("False")
+if condition_b: 
+    print("True")
+else:    
+    print("False")
+    
+
+
