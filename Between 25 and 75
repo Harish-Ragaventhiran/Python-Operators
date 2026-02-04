@@ -1,0 +1,7 @@
+a = input()
+a = int(a)
+res = (a > 25) 
+res2 = (a < 75)
+result = (res and res2)
+
+print(result)
