@@ -1,0 +1,14 @@
+n = int(input())
+
+year = (n / 365)
+year_to_week = (n % 365)
+
+weeks = (year_to_week / 7)
+weeks_to_days = (year_to_week % 7)
+
+days =  (weeks_to_days / 1)
+
+
+print(int(year))
+print(int(weeks))
+print(int(weeks_to_days))
