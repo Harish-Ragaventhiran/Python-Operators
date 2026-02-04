@@ -1,0 +1,11 @@
+distance = int(input())
+first_50 = 50 * 3
+
+if distance <= 50:
+    score = distance * 3
+else:
+    remaining_distance = distance - 50
+    remaining_distance_score = remaining_distance * 5
+    score = first_50 + remaining_distance_score
+    
+print(score)
