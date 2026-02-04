@@ -1,0 +1,22 @@
+String = input()
+first_3_characters = String[0:3]
+
+is_equal = (first_3_characters == "NXT")      
+
+number = String[3:]
+number = int(number)
+
+similar_2 = (number % 2 == 0)
+similar_7 = (number % 7 == 0)
+similar = (similar_7 or similar_2)
+
+
+compare = (is_equal and similar)
+
+if compare:
+    print("Special String")
+else:
+    print("Not a Special String")
+
+
+
