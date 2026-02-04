@@ -1,0 +1,17 @@
+n = int(input())
+
+is_2 = (n % 2)
+is_22 = (is_2 > 0)
+
+is_3 = (n % 3)
+is_33 = (is_3 > 0)
+
+is_5 = (n % 5)
+is_55 = (is_5 > 0)
+
+is_7 = (n % 7)
+is_77 = (is_7 > 0)
+
+result = (is_22) and (is_33) and (is_55) and (is_77)
+
+print(result)
