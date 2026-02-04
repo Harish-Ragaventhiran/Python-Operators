@@ -1,0 +1,10 @@
+N = input()
+N = int(N)
+
+is_div = (N % 2)
+is_equal = (is_div == 0)
+
+if (is_equal):
+    print("Even")
+else:
+    print("Odd")
