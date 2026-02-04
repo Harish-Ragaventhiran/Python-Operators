@@ -1,0 +1,17 @@
+a = input()
+b = input()
+
+three = a[:3]
+disc = b[:3]
+
+extra_a = "DIS"
+extra_b = "6BY"
+
+equal_1 = (three == extra_a) or (disc == extra_a)
+equal_2 = (three == extra_b) or (disc == extra_b)
+result = equal_1 or equal_2
+
+if result:
+    print("Discount")
+else:
+    print("No Discount")
