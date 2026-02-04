@@ -1,0 +1,8 @@
+a = input()
+b = input()
+
+first = int(a[0])
+last = int(b[-1])
+
+condition = (first < last)
+print(condition )
