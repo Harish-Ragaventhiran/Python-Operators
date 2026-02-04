@@ -1,0 +1,7 @@
+a = input()
+a = int(a)
+b = input()
+b = int(b)
+
+is_div = (a % b)
+print(is_div)
