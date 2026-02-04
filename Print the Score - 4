@@ -1,0 +1,25 @@
+distance = int(input())
+score_bonus = 50
+
+first_2 = 40 * 2
+second_4 = 20 * 4
+third_6 = 60 * 6
+
+
+if distance <= 40:
+    score = distance * 2
+elif distance <= 60:
+    remaining_distance = distance - 40
+    remaining = remaining_distance * 4
+    score = first_2 + remaining
+elif distance <= 120:
+    remaining_distance = distance - 60
+    remaining = remaining_distance * 6
+    score = first_2 + second_4 + remaining
+else:
+    remaining_distance = distance - 120
+    remaining = remaining_distance * 8
+    score = first_2 + second_4 + third_6 + remaining
+    
+score = score + score_bonus    
+print(score)
