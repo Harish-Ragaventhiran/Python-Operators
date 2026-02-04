@@ -1,0 +1,17 @@
+Num = input()
+
+first = int(Num[0])
+second = int(Num[1])
+
+sum_digit = (first + second)
+is_greater = (sum_digit == 7)
+
+is_equal = ((first == 7) or (second == 7))
+is_multi = ((int(Num) % 7) == 0)
+
+result = ((is_greater or is_equal) or is_multi)
+
+if result:
+    print("Special Number")
+else:
+    print("Normal Number")
