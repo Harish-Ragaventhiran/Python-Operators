@@ -1,0 +1,13 @@
+A = input()
+M = input()
+
+length = len(A)
+attend = A[:(length-1)]
+att = int(attend)
+
+if (att >= 75):
+    print("Allowed to write exam")
+elif (att < 75) and (M == "Y"):
+    print("Allowed to write exam")
+else:
+    print("Cannot write exam")
