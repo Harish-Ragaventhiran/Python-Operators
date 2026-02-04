@@ -1,0 +1,11 @@
+m = int(input())
+p = int(input())
+
+above_35 = (m > 35) and (p > 35)
+tot = (m + p)
+
+result = (tot >= 100)
+if above_35 or result:
+    print("Qualified")
+else:
+    print("Not Qualified")
