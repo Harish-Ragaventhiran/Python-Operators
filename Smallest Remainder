@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+
+remain_ab = (a % b)
+remain_ba = (b % a)
+
+if (remain_ab) < (remain_ba):
+    print(remain_ab)
+else:
+    print(remain_ba)
