@@ -1,0 +1,8 @@
+age = input()
+age = int(age)
+status = input()
+
+is_age = (age > 12) and (age < 60)
+is_status = (status == "yes")
+result = is_age or is_status
+print(result)
