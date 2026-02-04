@@ -1,0 +1,18 @@
+n = int(input())
+sqrt = (n ** 2)
+
+n = str(n)
+num_len = len(n)
+
+sqrt = str(sqrt)
+sqrt_len = len(sqrt)
+
+num_digit_1 = n[num_len - 1]
+num_digit_2 = sqrt[sqrt_len - 1]
+
+result = (num_digit_2 == num_digit_1)
+
+if result:
+    print("Equal")
+else:
+    print("Not Equal")
