@@ -1,0 +1,16 @@
+num = int(input())
+num_str = str(num)
+
+a = int(num_str[0])
+b = int(num_str[1])
+c = int(num_str[2])
+
+a3 = (a ** 3)
+b3 = (b ** 3)
+c3 = (c ** 3)
+
+sum_abc = (a3 + b3 + c3)
+if (sum_abc == num):
+    print("True")
+else:
+    print("False")
