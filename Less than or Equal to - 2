@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+
+c1 = (a <= b)
+c2 = (b <= a)
+
+print("A <= B is " + str(c1))
+print("B <= A is " + str(c2))
