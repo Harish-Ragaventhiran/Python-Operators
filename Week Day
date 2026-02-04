@@ -1,0 +1,16 @@
+day = int(input())
+
+monday = 1 
+tuesday = 2
+wednesday = 3
+thursday = 4
+friday = 5
+saturday = 6
+sunday = 7
+
+if day in [monday,tuesday]:
+    print("Week Start")
+elif day in [wednesday,thursday,friday]:
+    print("Midweek")
+else:
+    print("Weekend")
