@@ -1,0 +1,9 @@
+a = int(input())
+b = int(input())
+
+a2 = (a ** 2)
+b2 = (b ** 2)
+
+hypotense = (a2 + b2)
+exponent = (hypotense ** 0.5)
+print(int(exponent))
